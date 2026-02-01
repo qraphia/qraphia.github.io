@@ -1,4 +1,6 @@
 title: Qraphia
 description: Portfolio
 theme: jekyll-theme-minimal
-show_downloads: false
+
+# header icon (site-wide)
+avatar_url: https://github.com/qraphia.png?size=240
