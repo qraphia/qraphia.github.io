@@ -1,0 +1,15 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* home avatar */
+.home-avatar {
+  margin: 0 0 1rem 0;
+  text-align: center;
+}
+
+.home-avatar img {
+  border-radius: 12px;
+  display: inline-block;
+}
