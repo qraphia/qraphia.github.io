@@ -7,8 +7,8 @@ permalink: /tools/
 
 | Tool | What it does | Links |
 |---|---|---|
-| Tool A | one-liner | GitHub: <repo-url> · Docs: <docs-url> |
-| Tool B | one-liner | GitHub: <repo-url> · Demo: <demo-url> |
+| ToolName | One-line value proposition. | [GitHub](https://github.com/USER/REPO) · [Docs](https://USER.github.io/REPO/) |
+| AnotherTool | One-line value proposition. | [GitHub](https://github.com/USER/REPO) · [Demo](https://example.com) |
 
 ### Add a tool (rule)
 - Keep it **one line** for “What it does”.
