@@ -3,13 +3,19 @@
 
 @import "{{ site.theme }}";
 
-/* home avatar */
-.home-avatar {
-  margin: 0 0 1rem 0;
-  text-align: center;
+/* Site header avatar (configured via _config.yml: avatar_url) */
+header h1 a {
+  display: inline-block;
 }
 
-.home-avatar img {
+header h1 a::before {
+  content: "";
+  display: block;
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 0.75rem auto;
   border-radius: 12px;
-  display: inline-block;
+  background-image: url("{{ site.avatar_url }}");
+  background-size: cover;
+  background-position: center;
 }
